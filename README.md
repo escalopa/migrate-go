@@ -46,5 +46,5 @@ db-migrate:
   volumes:
     - ./migrations:/migrations
     - ./path/to/dsn/file:/path/to/dsn/file
-  command: [ "-dir", "/migrations", "-f", "/path/to/dsn/file" ]
+  command: [ "-dir", "/migrations", "-file", "/path/to/dsn/file" ]
 ``
